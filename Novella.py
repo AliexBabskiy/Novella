@@ -7,12 +7,6 @@ print("                 |_____||_____||_______|                       \n")
 print("Если текст остановился, то нажмите Enter.")
 print("Для выбора варианта ответа используейте клавиши 1 или 2.\n")
 print("                       Зима. Холод.                            \n")
-print("⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ")
-print(" ")    #добавить предысторию
-
-
-
-
 
 print("⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ \n")
 name = input("Введите имя персонажа: " )
@@ -25,43 +19,43 @@ input()
 
 print("⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ")
 text = ("На окнах метель рисовала свои прекрасные узоры.\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 text = ("Я сидел рядом с окном и держал в руках фотографию нашей семьи, пристально смотря на изображение сестры.\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 text = ("Она не первая пропавшая, были и другие похищения, но и тех людей так и не нашли...\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 text = ("Они будто растворились в воздухе, ни следов, ни записок, нечего не было найдено на месте происшествия.\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 text = ("С тех самых пор мы не можем найти себе место из-за случившегося.\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 text = ("Полиция продолжает поиск пропавших и моей сестры, однако пока все безрезультатно.\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 
 input()
 
 text = ("Я положил фотографию на место и лег на кровать.\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 text = ("Из-за плохого самочувствия нужно было решить пойду ли я на учебу.\n\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 text = ("Пойти в колледж или остаться дома:\n\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 
 textA = ("1 <пойти на учебу>")
@@ -75,22 +69,22 @@ if vr == '2':
     
     print("⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ")
     text = ("Решив остаться дома, я отправился валяться на кровати, написав \nдрузьям о том, чтобы в колледже меня сегодня не ждали и \nпредложил встретиться погулять вечером.\n")
-    for char in text: 
-        print(char, end='', flush=True) 
+    for char in text:
+        print(char, end='', flush=True)
         time.sleep(0.05)
     text = ("Они согласились, а я отложив телефон, начал медленно проваливаться в сон.\n")
-    for char in text: 
-        print(char, end='', flush=True) 
+    for char in text:
+        print(char, end='', flush=True)
         time.sleep(0.05)
     text = ("Спустя, какое-то время я проснулся и увидел, как начинает потихоньку темнеть.\n")
-    for char in text: 
-        print(char, end='', flush=True) 
+    for char in text:
+        print(char, end='', flush=True)
         time.sleep(0.05)
     text = ("С работы уже пришла мама.\n\n")
-    for char in text: 
-        print(char, end='', flush=True) 
+    for char in text:
+        print(char, end='', flush=True)
         time.sleep(0.05)
-    dial1 = f"{name}, ты сегодня ходил на учебу?"                                            #f строка
+    dial1 = f"{name}, ты сегодня ходил на учебу?"                                              #f строка
     print(dial1)
     input()
     textDL1 = ("нет, я плохо себя чувствовал утром и решил остаться дома.")                    #преобразование строки первая заглавная а остальное нет
@@ -101,45 +95,65 @@ if vr == '2':
     input()
 
     text = ("Спустя где-то два часа, мы созвонились с Даней и Ильей о встрече. \n\n")
-    for char in text: 
-        print(char, end='', flush=True) 
+    for char in text:
+        print(char, end='', flush=True)
         time.sleep(0.05)
     text = ("Договорились встретиться возле моего дома.\n\n")
-    for char in text: 
-        print(char, end='', flush=True) 
+    for char in text:
+        print(char, end='', flush=True)
         time.sleep(0.05)
     text = ("Через некоторое время я увидел ребят в окно и пошел одеваться.\n\n")
-    for char in text: 
-        print(char, end='', flush=True) 
+    for char in text:
+        print(char, end='', flush=True)
         time.sleep(0.05)
     
     input("<Взять и надеть куртку>" )
     
     print("\n⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ")
     text = ("Одевшись, я вышел на улицу, мы поздоровались и пошли гулять.\n")
-    for char in text: 
-        print(char, end='', flush=True) 
+    for char in text:
+        print(char, end='', flush=True)
         time.sleep(0.05)
 
 else:
 
     print("⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ")
-    text = ("Я спокойно спустился со второго этажа, зашел на кухню, взял с \nсобой еду в колледж и пошел одеваться. Когда я открыл дверь, \nснег с холодом ударил мне прямо в лицо, и через несколько секунд \nоно покраснело. Шаг за шагом я пробирался через сугробы, \nпркрывя лицо руками, чтобы видеть дорогу.\n")
-    for char in text: 
-        print(char, end='', flush=True) 
+    text = ("Я спустился со второго этажа и пошёл на кухню собирать еду себе в колледж.\n")
+    for char in text:
+        print(char, end='', flush=True)
+        time.sleep(0.05)
+    i = 1
+    eda = []
+    print("Введите какую еду хотите взять (НЕ БОЛЬШЕ 3): ")
+    ed1 = input()
+    ed1 = ed1.lower()
+    ed2 = input()
+    ed2 = ed2.lower()
+    ed3 = input()
+    ed3 = ed3.lower()
+
+    eda.append(ed1)
+    eda.append(ed2)
+    eda.append(ed3)
+    
+    input()
+
+    text = f"Я взял {eda[0]}, {eda[1]}, {eda[2]} и пошел одеваться. Когда я открыл дверь, \nснег с холодом ударил мне прямо в лицо, и через несколько секунд \nоно покраснело. Шаг за шагом я пробирался через сугробы, \nпркрывя лицо руками, чтобы видеть дорогу.\n"
+    for char in text:
+        print(char, end='', flush=True)
         time.sleep(0.05)
     text = ("Спустя время я уже подходил к колледжу.\n")
-    for char in text: 
-        print(char, end='', flush=True) 
+    for char in text:
+        print(char, end='', flush=True)
         time.sleep(0.05)
     text = ("\nЗайдя в колледж, я спустился в гардероб.\n\n")
-    for char in text: 
-        print(char, end='', flush=True) 
+    for char in text:
+        print(char, end='', flush=True)
         time.sleep(0.05)
     input("<Повесить куртку>" )                                               #можно добавить что я взял и потом вывести
     text=("\nЯ повесил свою верхнюю одежду на вешалку:\n\n")
-    for char in text: 
-        print(char, end='', flush=True) 
+    for char in text:
+        print(char, end='', flush=True)
         time.sleep(0.05)
     
     textA = ("1 <пойти к аудитории>")
@@ -150,76 +164,76 @@ else:
     vr = input("Выбирете действие: ")
     print()
     if vr == '1':
-
+        
         text = ("Через 5 минут я уже поднимался на нужный этаж здания, \nтам я встретил своих друзей, их звали: Даня и Илья.\n")
-        for char in text: 
-            print(char, end='', flush=True) 
+        for char in text:
+            print(char, end='', flush=True)
             time.sleep(0.05)
         text=("Увидев меня, парни подошли поздороваться, и мы вместе зашли в аудиторию, а когда \nсадились за парту, я краем глаза увидел подруг Сони.\n")
-        for char in text: 
-            print(char, end='', flush=True) 
+        for char in text:
+            print(char, end='', flush=True)
             time.sleep(0.05)
         text=("Кажется, они тоже, как и я, все никак не могли смирится с ее пропажей.\n\n")
-        for char in text: 
-            print(char, end='', flush=True) 
+        for char in text:
+            print(char, end='', flush=True)
             time.sleep(0.05)
         text=("Пары закончились, и мы с друзьями решили прогуляться.\n\n")
-        for char in text: 
-            print(char, end='', flush=True) 
+        for char in text:
+            print(char, end='', flush=True)
             time.sleep(0.05)
         text=("Мы все вместе спустились в гардероб за куртками.\n\n")
-        for char in text: 
-            print(char, end='', flush=True) 
+        for char in text:
+            print(char, end='', flush=True)
             time.sleep(0.05)
         input("<Надеть куртку>\n")
         print("⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ")
         text=("После этого мы вышли во двор колледжа, и начали думать куда мы пойдем.\n")
-        for char in text: 
-            print(char, end='', flush=True) 
+        for char in text:
+            print(char, end='', flush=True)
             time.sleep(0.05)
         text=("Пока мальчики решали, этот вопрос я осматривал двор и \nувидел снова Сониных подруг, а именно Дашу и Лину.\n")
-        for char in text: 
-            print(char, end='', flush=True) 
+        for char in text:
+            print(char, end='', flush=True)
             time.sleep(0.05)
         text=("Девочки выглядели грустно и общались о своем. Я решил предложить парням позвать их за компанию на прогулку.\n")
-        for char in text: 
-            print(char, end='', flush=True) 
+        for char in text:
+            print(char, end='', flush=True)
             time.sleep(0.05)
     
     else:
 
         text=("Мне написали ребята, что сегодня не придут. Через 5 минут я уже \nподнимался на нужный этаж здания и прошел в аудиторию.\n")
-        for char in text: 
-            print(char, end='', flush=True) 
+        for char in text:
+            print(char, end='', flush=True)
             time.sleep(0.05)
         text=("Я садился за парту и краем глаза увидел подруг Сони, они тоже, как и \nя не могут смериться с ее пропажей.\n\n")
-        for char in text: 
-            print(char, end='', flush=True) 
+        for char in text:
+            print(char, end='', flush=True)
             time.sleep(0.05)
         text=("После того как закончились пары, мы с друзьями договорились прогуляться.\n\n")
-        for char in text: 
-            print(char, end='', flush=True) 
+        for char in text:
+            print(char, end='', flush=True)
             time.sleep(0.05)
         print("⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ")
         text=("Я встретился с ребятами и мы начали решать куда пойдем.\n")
-        for char in text: 
+        for char in text:
             print(char, end='', flush=True) 
             time.sleep(0.05)
         text=("Пока мальчики решали, этот вопрос я осматривал двор и увидел \nСониных подруг, а именно Дашу и Ангелину.\n") 
-        for char in text: 
-            print(char, end='', flush=True) 
+        for char in text:
+            print(char, end='', flush=True)
             time.sleep(0.05)
         text=("Девочки выглядели грустно и общались о своем.\n") 
-        for char in text: 
-            print(char, end='', flush=True) 
+        for char in text:
+            print(char, end='', flush=True)
             time.sleep(0.05)
         text=("Я решил предложить парням позвать их за компанию на прогулку.\n")
-        for char in text: 
-            print(char, end='', flush=True) 
+        for char in text:
+            print(char, end='', flush=True)
             time.sleep(0.05)
-    
+
 input()
-    
+
 textA = ("Ребят")
 print(textA.upper())                                               #преобразование строки на все заглавные
 input()
@@ -233,33 +247,33 @@ print("Я тоже не возражаю. – сказал Даня.")
 input()
 
 print("⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ")
-text=("После переговоров мы с ребятами решили позвать девушек в нашу компанию.\n") 
-for char in text: 
-    print(char, end='', flush=True) 
+text=("После переговоров мы с ребятами решили позвать девушек в нашу компанию.\n")
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 text=("Мы подошли к ним.\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 text=("Они стояли рядом с выходом из колледжа, \nразговаривая о чем-то своем, не заметив нашего прихода.\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 text=("Даша стояла в голубом теплом пуховике, без шапки будто мороз ей не почем.\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 text=("Ее темные каштановые волосы развивались по \nветру отдавая приятным ароматом.\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 text=("Лина, напротив, была одета еще легче, чем Даша.\n") 
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 text=("Она стояла в черном пальто, а ее шея и \nголова была укутана теплый шарф, который хорошо дополнял ее образ.\n\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 print("Привет – сказал я девушкам.")
 input()
@@ -287,20 +301,20 @@ input()
 
 print("⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆⋆꙳•̩̩͙❅*̩̩͙‧͙ ")
 text=("Мы шли медленно, погода на улице уже успокоилась и была прекрасной.\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 text=("Все деревья были покрыты блестящим снегом, который переливался на солнце.\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 text=("Были большие, мягкие сугробы, пели птицы и солнце светило ярко, снег хрустел под ногами.\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 text=("И вдруг Илья начал говорить … \n\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 print("Когда мы шели, вместе с Даней в колледж, мы услышали разговор \nполицейских о пропавших без вести. — сказал Илья. \n")
 print("Все остановились и замерли, и с волнением ждали, что скажут мальчики дальше.")
@@ -310,12 +324,12 @@ input()
 print("Вообще, они нашли какие-то зацепки о пропавших людях — сказал Даня.")
 input()
 text=("Сердце билось так сильно, как никогда раньше, губы задрожали, дыхание стало учащаться.\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 text=("Я скрестил руки на груди, продолжив слушать, что узнали друзья.\n")
-for char in text: 
-    print(char, end='', flush=True) 
+for char in text:
+    print(char, end='', flush=True)
     time.sleep(0.05)
 input()
 print("Им кто-то в участок полиции принёс записки, каждого пропавшего. — продолжил Даня.")
@@ -334,7 +348,7 @@ input()
 print("Какая? — спросили все.")
 input()
 print("Давайте обыщем сами место пропажи людей — сказала Даша, смотря на всех нас.")
-print("Все удивились, от такого предложения, в том числе и я.") 
+print("Все удивились, от такого предложения, в том числе и я.")
 print("Надо было все обдумать, но времени было мало.")
 input()
 print("Продолжение следует… ")
