@@ -1,4 +1,65 @@
 import time
+import json
+import csv
+def menu():
+    print ("Новая игра: 1")
+#def NewSave():
+    #SAVE = {
+        #"Name user" : nameuser,
+        #"Name" : name,
+        #"Age" : age,
+        #"VeR1" : vr1,
+        #"VeR2" : vr2,
+    #}
+    #with open("data.json","w") as write_file: 
+    #    json.dump(SAVE, write_file)
+    print ("Загрузить сохранение: 2")
+
+    def UseSave():
+        with open('data.json','r') as file: 
+            save = json.load(file)
+        name = save["Name"]
+        ver1 = save["VeR1"]
+        ver2 = save["VeR2"]
+        if ver2 == '1':
+            vr121()
+        elif ver2 == '2':
+            vr122()
+        elif ver1 == '2':
+            vr11()
+        elif ver1 == '1':
+            vr12()
+
+    men = input("Выберите действие: ")
+    if men == '2':
+        UseSave()
+    #elif men == '2':
+    #    men2()
+
+def save_json():
+    SAVE = {
+        "Name user" : nameuser,
+        "Name" : name,
+        "VeR1" : vr1,
+        "VeR2" : vr2,
+    }
+    with open("data.json","w") as write_file: 
+        json.dump(SAVE, write_file)
+
+menu()
+
+nameuser = input("Введите имя пользоваетля: " )
+info = "Имя пользователя: %s." % (nameuser)
+#with open('data.json','r') as file: 
+#    Vrsave = json.load(file)
+#SAVE3 = {
+#    "Name user": nameuser
+#}
+#Vrsave.update(SAVE3)
+#with open("data.json","w") as write_file: 
+#    json.dump(Vrsave, write_file)
+
+print(info)
 print("Для прохождения используюйте клавиши: ")
 print("                  _____  _____  _______                          ")
 print("                 |     ||     ||       |                         ")
@@ -20,6 +81,11 @@ D1 = drends["D1"]
 D2 = drends["D2"]
 D3 = drends["D3"]
 D4 = drends["D4"]
+
+#save_json()
+#with open('data.json','r') as file: 
+#    save = json.load(file)
+#print(save)
 
 input()
 
@@ -226,12 +292,28 @@ def vr12():
     print(textA.upper())                                                                        #преобразование строки на все заглавныеf
     print(textB.upper())
 
-    vr = input("Выбирете действие: ")
+    vr2 = input("Выбирете действие: ")
+    #with open('data.json','r') as file: 
+    #    Vr2save = json.load(file)
+    #SAVE2 = {
+    #    "VR2": vr2
+    #}
+    #Vr2save.update(SAVE2)
+    #with open("data.json","w") as write_file: 
+    #    json.dump(Vr2save, write_file)
+    save_json()
     print()
-    if vr == '1':
-        vr121()
-    elif vr == '2':
-        vr122()
+    print("Сохранение")
+    print("Выйти в меню: 1")
+    print("Продолжить")
+    tvp = input()
+    if tvp == '1':
+        menu()
+    else:
+        if vr2 == '1':
+            vr121()
+        elif vr2 == '2':
+            vr122()
 ################################################################################################################################################################
 
 textA = ("1 <пойти на учебу>")
@@ -239,13 +321,37 @@ textB = ("2 <остаться дома>")
 print(textA.upper())                                                                        #преобразование строки на все заглавные
 print(textB.upper())
 
-vr = input("Выбирете действие: ")
+vr1 = input("Выбирете действие: ")
+vr2 = 55555
+#with open('data.json','r') as file: 
+#    Vr1save = json.load(file)
+#SAVE1 = {
+#    "VR1": vr1
+#}
+#Vr1save.update(SAVE1)
+#with open("data.json","w") as write_file: 
+#    json.dump(Vr1save, write_file)
+save_json()
 print()
-if vr == '2':
-    vr11()
+print("Сохранение")
+print("Выйти в меню: 1")
+print("Продолжить")
+tvp = input()
+if tvp == '1':
+    menu()
+else:
+    if vr1 == '2':
+        vr11()
 
-elif vr == '1':
-    vr12()
+    elif vr1 == '1':
+        vr12()
+
+with open('data.json','r') as file: 
+    csvc = json.load(file)
+with open('data.csv','w') as file:
+    writer = csv.writer(file)
+    for row in csvc:
+        writer.writerow(row)
 
 input()
 
